@@ -1,0 +1,127 @@
+WindowWidgetClass CarLockFrame {
+ color 0.1765 0.1765 0.1765 1
+ size 0.222 0.193
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ style Colorable
+ {
+  PanelWidgetClass CarLockPanel {
+   ignorepointer 1
+   color 0 0 0 1
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style Outline
+   {
+    TextWidgetClass TextOutput {
+     ignorepointer 1
+     position 0 0.05
+     size 0.113 0.23
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Enter Code"
+     font "gui/fonts/metron"
+     "exact text" 1
+     text_proportion 0.75
+     "size to text h" 1
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+    }
+    PanelWidgetClass BtnCancellColorPanel {
+     ignorepointer 1
+     color 0.0118 0.8549 0.7725 1
+     position 0.01 0.02
+     size 0.06 0.12
+     halign right_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      ButtonWidgetClass BtnCancel {
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Empty
+       text "X"
+       font "gui/fonts/metron"
+       "text color" 0.1765 0.1765 0.1765 1
+      }
+     }
+    }
+    PanelWidgetClass SeparatorWidget {
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 0 -0.13
+     size 0.85 0.03
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    EditBoxWidgetClass PasswordInput {
+     color 0.1137 0.1137 0.1137 1
+     position 0 0.06
+     size 0.453 0.2
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DefaultBorder
+    }
+    PanelWidgetClass BtnOKColorPanel {
+     ignorepointer 1
+     color 0.7333 0.5255 0.9882 1
+     position 0 0.09
+     size 0.523 0.18
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      ButtonWidgetClass BtnOK {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Empty
+       text "OK"
+       font "gui/fonts/metron"
+       "text color" 0.1137 0.1137 0.1137 1
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+    "compress": {
+        "exclude": [
+        ],
+        "include": [
+            "\\.xml$"
+        ]
+    },
+    "headers": [
+        {
+            "name": "prefix",
+            "value": "aCarLock"
+        },
+        {
+            "name": "product",
+            "value": "dayz ugc"
+        },
+        {
+            "name": "version",
+            "value": "1"
+        }
+    ]
+}

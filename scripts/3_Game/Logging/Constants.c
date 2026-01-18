@@ -1,0 +1,6 @@
+const string CARLOCK_LOGGER_ROOT = TUTORIAL_CARLOCK_CONFIG_ROOT + "CarLockLogging\\";
+const string CARLOCK_LOGGER_CONFIG_DIR = CARLOCK_LOGGER_ROOT + "Config\\";
+const string CARLOCK_LOGGER_CONFIG_FILE = CARLOCK_LOGGER_CONFIG_DIR + "CarLockLoggingSettings.json";
+
+const string CARLOCK_LOGGER_LOG_DIR = CARLOCK_LOGGER_ROOT + "Logs\\";
+const string CARLOCK_LOGGER_LOG_FILE = CARLOCK_LOGGER_LOG_DIR + "CarLock_%1.log";
